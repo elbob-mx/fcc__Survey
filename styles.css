@@ -1,0 +1,207 @@
+html body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
+    url(https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1988&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+h1 {
+  font-size: 4rem;
+  margin: 50px auto 20px auto;
+  text-align: center;
+  width: 800px;
+}
+#description{
+  text-align: center;
+}
+p {
+  font-size: 1rem;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  width: 800px;
+}
+hr {
+  background-color: #3b3b4f;
+  border: 1px solid #3b3b4f;
+  margin: 0 0; 
+  width: 100%
+}
+label {
+  margin: 0 0;
+  padding: 0 0;
+}
+#name-label,
+#email-label,
+#number-label,
+#role-label,
+#favs-label,
+#learn-label,
+#study-label,
+#suggestions-label
+{
+  font-weight: bold;
+}
+input {
+  height: 20px;
+  width: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+checkbox,
+select {
+  border-radius: 6px;
+  margin: 5px 0 30px 0;
+  min-height: 2.5em;
+  width: 100%;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="radio"]:focus,
+input[type="number"]:focus,
+select:focus,
+checkbox:focus,
+textarea:focus,
+#submit:focus {
+  outline-offset: 2px;
+  outline: 3px solid red;
+}
+#survey-form {
+  background-color: rgba(0, 0, 0, 50%);
+  border-radius: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  min-width: 320px;
+  padding-bottom: 2em;
+  padding: 10px 20px;
+}
+fieldset {
+  border-bottom: 1px solid gray;
+  border: none;
+  margin: 20px auto auto auto;
+  max-width: 800px;
+  min-width: 320px;
+}
+select {
+  padding: 1px 2px;
+}
+select[id="dropdownLearn"] {
+  margin-bottom: 20px;
+  width: 100%;
+}
+fieldset[id="fieldRadio"] {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: auto auto;
+  max-height: 60px;
+  min-height: 40px;
+  padding: 50px 10px;
+  vertical-align: middle;
+  width: unset;
+}
+fieldset[id="fieldRadio"] label {
+  padding: 5px auto;
+}
+.radios{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 10px 10px 0;
+}
+.radioChoice {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+fieldset[id="fieldLearn"] {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 20px 0;
+  max-height: 60px;
+  min-height: 40px;
+  width: 100%;
+}
+fieldset[id="checkboxes"] {
+  align-items: center;
+  justify-items: start;
+  margin: 0 0;
+  max-height: 130px;
+  min-height: 120px;
+}
+fieldset#checkboxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  max-width: 800px;
+  min-width: 320px;
+  padding: 0 0;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+.chkopt {
+  display: flex;
+  height: 25px;
+  margin: 15px 10px 15px 0;
+  width: 25px;
+  align-items: center;
+}
+.chkopt:focus {
+outline: 3px solid red;
+}
+.chktxt{
+  display: flex;
+  font-style: italic;
+  align-items: center;
+}
+textarea {
+  margin: 10px auto auto auto;
+  max-width: 800px;
+  min-width: 320px;
+  resize: none;
+  width: 100%;
+}
+/* submit button ------------> */
+#submit {
+  background-color: #3b3b4f;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  height: 3em;
+  margin: 2em auto 5em auto;
+  transition: 0.2s;
+  width: 15%;
+}
+#submit:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  width: 18%;
+}
+#submit:focus {
+  background-color: white;
+  outline: 5px solid greenyellow;
+  color: black;
+  transition: 0.2s;
+  width: 18%;
+}
+#submit:active {
+  background-color: dodgerblue;
+  outline:5px solid greenyellow;
+  color: white;
+  transition: 0.2s;
+  width: 18%;
+}
+/* submit button ------------> */
