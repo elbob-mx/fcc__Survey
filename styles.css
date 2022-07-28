@@ -182,26 +182,30 @@ textarea {
   height: 3em;
   margin: 2em auto 5em auto;
   transition: 0.2s;
-  width: 15%;
+  min-width: 150px;
+  max-width: 150px;
 }
 #submit:hover {
   background-color: white;
   color: black;
   transition: 0.5s;
-  width: 18%;
+  min-width: 180px;
+  max-width: 180px;
 }
 #submit:focus {
   background-color: white;
   outline: 5px solid greenyellow;
   color: black;
   transition: 0.2s;
-  width: 18%;
+  min-width: 180px;
+  max-width: 180px;
 }
 #submit:active {
   background-color: dodgerblue;
   outline:5px solid greenyellow;
   color: white;
   transition: 0.2s;
-  width: 18%;
+  min-width: 185px;
+  max-width: 185px;
 }
 /* submit button ------------> */
