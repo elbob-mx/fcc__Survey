@@ -13,7 +13,7 @@ h1 {
   text-align: center;
   width: 800px;
 }
-#description{
+#description {
   text-align: center;
 }
 p {
@@ -25,8 +25,8 @@ p {
 hr {
   background-color: #3b3b4f;
   border: 1px solid #3b3b4f;
-  margin: 0 0; 
-  width: 100%
+  margin: 0 0;
+  width: 100%;
 }
 label {
   margin: 0 0;
@@ -39,8 +39,7 @@ label {
 #favs-label,
 #learn-label,
 #study-label,
-#suggestions-label
-{
+#suggestions-label {
   font-weight: bold;
 }
 input {
@@ -108,7 +107,7 @@ fieldset[id="fieldRadio"] {
 fieldset[id="fieldRadio"] label {
   padding: 5px auto;
 }
-.radios{
+.radios {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -156,9 +155,9 @@ fieldset:last-of-type {
   align-items: center;
 }
 .chkopt:focus {
-outline: 3px solid red;
+  outline: 3px solid red;
 }
-.chktxt{
+.chktxt {
   display: flex;
   font-style: italic;
   align-items: center;
@@ -202,7 +201,7 @@ textarea {
 }
 #submit:active {
   background-color: dodgerblue;
-  outline:5px solid greenyellow;
+  outline: 5px solid greenyellow;
   color: white;
   transition: 0.2s;
   min-width: 185px;

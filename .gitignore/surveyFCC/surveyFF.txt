@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>UX Design Form</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+
+  <body>
+
+    <h1 id="title">UX Design Survey</h1>
+    <p id="description">Thank you for taking the time to help  me learn front-end answering the following survey</p>
+
+<!--- PERSONAL DATA -->
+
+    <form id="survey-form" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label id="name-label">Name: <input type="text" name="name" id="name" placeholder="Please, write your name" required ></label>
+        <label id="email-label">Email: <input type="email" name="email" id="email" placeholder="Please, write your email" required ></label>
+        <label id="number-label">Age (optional): <input type="number" id="number" name="age" min="15" max="120" placeholder="Please, write your age (you have to be at least 15)"></label>
+        
+<!-- CURRENT ROLE -->
+        <label>Which option best describes your current role?<select id="dropdown" required><option value=" ">(select, please)</option>
+          <option value="1">Freelance</option>
+          <option value="2">Student</option>
+          <option value="3">Full Time Job</option></select></label>
+      </fieldset>
+
+<!--- FAVORITE UX AREA -->      
+
+      <fieldset id="fieldRadio" required>
+        <p id="radioFavs">Which is your favorite UX area?</p><label><input type="radio" name="radioChoice"> Design</label>
+        <label><input type="radio" name="radioChoice"> Research</label>
+        <label><input type="radio" name="radioChoice"> Strategy</label>
+      </fieldset>
+
+<!--- PREFERRED LEARN METHOD -->
+
+      <fieldset required><label name="referrer"> How do you learn most easily?
+        <select id="dropdown">
+          <option value=" ">(select, please)</option>
+          <option value="1">Watching video tutorials</option>
+          <option value="2">Reading</option>
+          <option value="3">Creating mockup projects on my own</option>
+        </select>
+        </label>
+      </fieldset>
+
+<!--- WHAT WANT TO LEARN NOW? -->
+
+      <fieldset id="checkboxes" name="checkboxField" required>
+        <label><input type="checkbox" id="chkopt"> test</label>
+        <label><input type="checkbox" id="chkopt"> test</label>
+        <label><input type="checkbox" id="chkopt"> test</label>
+        <label><input type="checkbox" id="chkopt"> test</label>
+      </fieldset>
+
+<!--- SUGGESTIONS -->
+
+      <fieldset>
+        <textarea name="comments" rows="5" cols="30" placeholder="Leave us your comments :)"></textarea>
+      </fieldset>
+    </form>
+
+<!-- SUBMIT BUTTON -->
+    <input id="submit" type="submit" value="Submit" />
+
+  <script>
+  console.log("testing, 1, 2, 1, 2...")
+  </script>
+
+  </body>
+</html>
